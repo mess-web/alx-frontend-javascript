@@ -1,13 +1,3 @@
-function getStudentIdsSum(students) {
-  if (!Array.isArray(students)) {
-    return [];
-  }
-
-  const reducer = (acc, item) => acc + item.id;
-
-  const sumIds = students.reduce(reducer, 0);
-
-  return sumIds;
-}
+const getStudentIdsSum = (students) => students.reduce((preVal, cur) => preVal + cur.id, 0);
 
 export default getStudentIdsSum;
