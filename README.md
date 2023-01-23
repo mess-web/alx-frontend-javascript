@@ -1,1 +1,2 @@
 # ALX-FRONTEND-JAVASCRPT
+and exercise 
